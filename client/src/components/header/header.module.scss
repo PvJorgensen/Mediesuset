@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+header {
+    display: flex;
+    align-items: baseline;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-between;
+
+    .overskrift {
+        font-family: "Russo One", sans-serif;
+    }
+}
