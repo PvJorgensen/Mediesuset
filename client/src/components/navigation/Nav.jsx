@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
+import { IoSearchOutline } from "react-icons/io5";
 import styles from './nav.module.scss'
 
 export const Nav = () => {
@@ -14,6 +15,7 @@ export const Nav = () => {
             <NavLink to="/Info">INFO</NavLink>
             <NavLink to="/Billetter">KØB BILLET</NavLink>
             <NavLink to="/Login">LOGIN</NavLink>
+            <li><IoSearchOutline /></li>
         </ul>
     </nav>
     </>

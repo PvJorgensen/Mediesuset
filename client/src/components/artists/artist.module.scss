@@ -1,0 +1,17 @@
+.artistContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    width: 100%;
+    
+    section {
+        display: grid;
+        grid-template-rows: 0.5fr 0.5fr;
+        width: 100%;
+        background-color: red;
+    }
+    img {
+        width: 100%;
+        max-height: 220px;
+    }
+}

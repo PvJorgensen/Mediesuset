@@ -1,0 +1,20 @@
+.sceneNav {
+    width: 100%;
+    ul {
+        display: flex;
+        justify-content: space-around;
+        li {
+            color: white;
+            text-align: center;
+            width: 100%;
+            padding: 15px;
+            background-color: #333333;
+        }
+        li:first-child {
+            border-radius: 15px 0px 0px 0px;
+        }
+        li:last-child {
+            border-radius: 0px 15px 0px 0px;
+        }
+    }
+}
